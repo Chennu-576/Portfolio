@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">
+                  <span class="portfolio">
+                        <span class="highlight-letter">L</span>akshmi</br> <span class="highlight-letter">M</span>adhuri
+                    </span>
+                </h1>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="section home">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-photo">
+                    <img src="https://res.cloudinary.com/dlxs6myrc/image/upload/v1723534743/pc3i26uuaaodj75kyxqg.jpg" class="shape-mask" alt="My Photo">
+                </div>
+                <div class="home-text">
+                    <p>Chennu Lakshmi Madhuri</p>
+                    <p>I'm a passionate Frontend Developer. I have a  commitment to continuous learning driven me to stay updated with the latest technologies and best practices.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Chennu-576" target="_blank">
+                            <img src="https://res.cloudinary.com/dlxs6myrc/image/upload/v1724758181/GitHub_logo_sh32sr.jpg" alt="GitHub">
+                        </a>
+                        <a href="https://linkedin.com/in/lakshmi-madhuri-chennu-69a951236" target="_blank">
+                            <img src="https://res.cloudinary.com/dlxs6myrc/image/upload/v1724758180/Linkedin_logo_tsaagl.jpg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="https://res.cloudinary.com/dlxs6myrc/image/upload/v1724758180/frontend_image_wogbyf.jpg" alt="About Me Photo">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I'm Enthusiastic and detail-oriented Front-End Developer with a foundational understanding of web technologies and a passion for creating engaging, user-friendly interfaces. Recently completed a course in front-end development gaining hands-on experience with HTML, CSS, Flexbox, JavaScript, Reactjs and Nodejs. Looking to contribute a creative team and grow professionally in a dynamic development environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-photo">
+                        <img src="https://res.cloudinary.com/dlxs6myrc/image/upload/v1724758180/Todolist_image_tq958v.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-text">
+                        <h3>ToDoList-App</h3>
+                        <p>The To-Do List application is a simple, user-friendly web app designed to help users manage their tasks efficiently. It allows users to add, edit, delete, and mark tasks as complete. The application uses local storage to save tasks so that they persist across browser sessions. This ensures that users do not lose their tasks upon refreshing the page or closing the browser.
+                         <a href="https://github.com/Chennu-576/TodoList-.git" target="_blank" class="project-link">View on GitHub</a></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-photo">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/010/989/526/small_2x/rainy-weather-3d-rendering-isolated-on-transparent-background-ui-ux-icon-design-web-and-app-trend-png.png" alt="Project 2">
+                    </div>
+                    <div class="project-text">
+                        <h3>Weather App</h3>
+                        <p> Weather App is designed to deliver accurate and timely weather information with ease. It allows users to view the current temperature for any location worldwide, helping you stay prepared for the day ahead. The app also provides real-time humidity levels, giving you insight into the moisture in the air, displays wind speed and direction to plan our day. 
+                        <a href="https://github.com/yourusername/project2" target="_blank" class="project-link">View on GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>Contact Me</h2>
+                    <p>Feel free to reach out to me using the form below. I am looking forward to the possibility of contributing and growing with you. Thank you for your time and consideration.</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chennu Lakshmi Madhuri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
